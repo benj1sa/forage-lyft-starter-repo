@@ -1,5 +1,7 @@
+from abc import ABC, abstractmethod
 
-class ServicableInterface:
+class Servicable(ABC):
+
+    @abstractmethod
     def needs_service(self) -> bool:
-        """Checks if the current car needs service"""
         pass
