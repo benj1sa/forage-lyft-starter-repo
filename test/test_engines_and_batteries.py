@@ -66,5 +66,7 @@ class TestBattery(unittest.TestCase):
         battery = SpindlerBattery(current_date, last_service_date)
         self.assertTrue(battery.needs_service())
 
+
+
 if __name__ == '__main__':
     unittest.main()
